@@ -12,7 +12,7 @@ public class Main {
       // print will output on the same line
       // println will enter to the next line after printing
       System.out.print("apcs");
-      System.out.print("is fun");
+      System.out.println(" is fun");
 
       // DECLARE VARIABLES
       int students;
@@ -28,6 +28,42 @@ public class Main {
       int numClasses = 9;
       double gpa = 3.4;
       boolean isSnowy = false;
+
+      // ARITHMETIC operators
+
+      System.out.println(2 + 3);
+      System.out.println(2 - 3);
+      System.out.println(2 * 3);
+      System.out.println(2.00 / 3.00); //If number is an int (1,2,3) it will come out as an int instead (0)
+
+      System.out.println(2 == 3); //returns false
+      System.out.println(2 != 3); //returns true
+
+      // % operator returns the remainder after divison
+      System.out.println(17234232%3);
+     
+
+      // COMPOUND ASSIGNMENT (shortcuts)
+      int score = 0 ;
+
+      //long way to increase score by 1
+      score = score + 1;
+      System.out.println(score);
+
+      // Shortcut edition
+      score += 5;
+      System.out.println(score);
+      
+      //only effects score by one
+      score++;
+      System.out.println(score);
+
+      // there are shortcuts for multiplication and division too 
+      score/=3;
+      System.out.println(score);
+
+      score*=732;
+      System.out.println(score); 
 
 
 
